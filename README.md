@@ -13,4 +13,3 @@ This script only works with the twentyeleven theme.
 1. Find the canonical place for a Wordpress version, right now it is just scraping the page. 
 2. Find the right way to get the wordpress site's version number. Right now this scrapes the version out of the html head meta information.
 3. Add better documentation on how to user nagios plugins. Right now only people who already know how they work can use this plugin.
-4. Change os.system to subprocess calls, those are the right way to execute shell commands.

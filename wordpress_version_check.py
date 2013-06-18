@@ -2,6 +2,7 @@
 
 import os
 import sys
+import subprocess
 
 tmp_space = "/tmp/"
 
@@ -15,7 +16,7 @@ def main():
 
     cmd = "wget -O " + tmp_space + "/index.html http://wordpress.org/download/"
     try:
-        os.system(cmd)
+        wget_process = subprocess.call(cmd,shell=True)
     except:
         print "Could not get http://wordpress.org/download/"
         sys.exit(1)
@@ -50,8 +51,7 @@ def main():
     os.remove(tmp_space + 'index.html')
    
     cmd = "wget -O " + tmp_space + "index.html " + url 
-    os.system(cmd)
-
+    wget_proc = subprocess.call(cmd,shell=True)
 
     url_line = ""
     f = open(tmp_space + 'index.html','r')
