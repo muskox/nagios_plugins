@@ -6,7 +6,7 @@ This script checks if you have the latest wordpress version. This script was whi
 
 ### Caveats
 
-This script only works with the twentyeleven theme.
+This script only works with themes that tell their version number in the HTML meta data. This works on many themes and I have personally tested the twentyeleven theme.
 
 ### TODO
 
