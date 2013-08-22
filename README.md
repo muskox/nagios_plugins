@@ -12,4 +12,4 @@ This script only works with themes that tell their version number in the HTML me
 
 1. Find the canonical place for a Wordpress version, right now it is just scraping the page. 
 2. Find the right way to get the wordpress site's version number. Right now this scrapes the version out of the html head meta information.
-3. Add better documentation on how to user nagios plugins. Right now only people who already know how they work can use this plugin.
+3. Add better documentation on how to use nagios plugins. Right now only people who already know how they work can use this plugin.
