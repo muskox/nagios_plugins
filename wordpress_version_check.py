@@ -78,7 +78,7 @@ def main():
         sys.exit(0)
     else:
         print "Latest Wordpress Version is %s. %s is running %s" % (version, url, url_line)
-        sys.exit(2)
+        sys.exit(1)
 
 
 if __name__ == "__main__":
