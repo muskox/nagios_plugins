@@ -77,7 +77,7 @@ def main():
         print "Latest Wordpress Version %s is running on %s" % (version, url)
         sys.exit(0)
     else:
-        print "Latest Wordpress Version is %s. %s is running %s" % (version, url, url_line)
+        print "Latest Wordpress Version is %s. %s version cannot be determined." % (version, url)
         sys.exit(1)
 
 
